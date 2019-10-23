@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+body, html {
+    margin: 0;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    /* background: rgba(33, 37, 40); */
+    font-family: 'Liu Jian Mao Cao', cursive;
+    color: whitesmoke;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+.logo{
+    margin: 0 1rem;
+}
+h1 {
+    color: rgba(245, 199, 68, 0.822);
+    font-size: 1.4res;
+}
+ul {
+    display: flex;
+}
+li {
+    list-style: none;
+    font-family: 'Rajdhani', sans-serif;
+    margin: 0 1rem;
+}
+li:visited {
+    color: rgba(247, 211, 88);
+    cursor: pointer;
+}
+i { 
+    display: none !important;
+    margin: 0 1 rem;
+    border: 1px solid; 
+    padding: .3rem 1rem;
+    border-radius: 6px;
+    background-color: rgba(245, 199, 68, 0.822)
+}
+.welcome {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-style: italic;
+    margin-top: 300px;
+}
+.meet {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    
+}
+@media (max-width: 1200) {
+    .container{
+        max-width: 990px;
+    }
+}
+@media (max-width: 1000px) {
+    .container{
+        max-width: 800px:
+    }
+    i {
+        display: inline-block !important;
+    }
+ul {
+    display: none;
+}
+header {
+    background: rgba(41, 40, 43)
+}
+}
