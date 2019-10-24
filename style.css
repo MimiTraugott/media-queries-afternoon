@@ -3,15 +3,17 @@
 }
 body, html {
     margin: 0;
+    height: 100vh;
+}
+.maincontainer {
     height: 100%;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url("https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg");
 }
-
 header {
-    /* background: rgba(33, 37, 40); */
-    font-family: 'Liu Jian Mao Cao', cursive;
     color: whitesmoke;
 }
 .container {
@@ -23,30 +25,34 @@ header {
 }
 .logo{
     margin: 0 1rem;
-}
-h1 {
+    font-family: 'Kaushan Script', cursive;
     color: rgba(245, 199, 68, 0.822);
-    font-size: 1.4res;
+}
+.navbar {
+    color: whitesmoke;
+    font-family: 'Rajdhani', sans-serif;
 }
 ul {
     display: flex;
 }
 li {
     list-style: none;
-    font-family: 'Rajdhani', sans-serif;
     margin: 0 1rem;
 }
-li:visited {
+li:hover {
     color: rgba(247, 211, 88);
     cursor: pointer;
 }
 i { 
     display: none !important;
-    margin: 0 1 rem;
+    margin: 0 1rem;
     border: 1px solid; 
     padding: .3rem 1rem;
     border-radius: 6px;
     background-color: rgba(245, 199, 68, 0.822)
+}
+.menu_button{
+
 }
 .welcome {
     text-align: center;
@@ -61,14 +67,14 @@ i {
     font-size: 100px;
     
 }
-@media (max-width: 1200) {
+@media (max-width: 1200px) {
     .container{
         max-width: 990px;
     }
 }
-@media (max-width: 1000px) {
+@media (max-width: 990px) {
     .container{
-        max-width: 800px:
+        max-width: 800px;
     }
     i {
         display: inline-block !important;
@@ -78,5 +84,8 @@ ul {
 }
 header {
     background: rgba(41, 40, 43)
+}
+.maincontainer {
+    height: 80%;
 }
 }
